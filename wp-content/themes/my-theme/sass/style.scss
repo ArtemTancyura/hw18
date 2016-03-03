@@ -1,0 +1,118 @@
+/*
+Theme Name: Simplest Site
+Author: Sam Gold
+Description: The 2014 simplest theme for WordPress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black
+Text Domain: simplest-site
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "footer";
+@import "header";
+
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+body{
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  article {
+    padding-top: 80px;
+
+    .post {
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+    .more-link {
+      display: inline-block;
+      color: #c2c1c1;
+      font-weight: 700;
+      line-height: 20px;
+      padding: 12px 25px;
+      border: 2px solid #c2c2c2;
+      border-radius: 25px;
+      margin-top: 34px;
+      text-decoration: none;
+    }
+    .more-link:hover {
+      color: #58c93a;
+      border: 2px solid #58c93a;
+    }
+  }
+  .main-column {
+    width: 66%;
+    float: left;
+  }
+
+  .secondary-column {
+    padding-top: 70px;
+    width: 30%;
+    float: right;
+
+    .widget-title {
+      background-color: #f8f8f8;
+      padding-left: 20px;
+      color: #6c6969;
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .textwidget {
+      p {
+        color: #737373;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
+  .title-column {
+    width: 30%;
+    float: left;
+  }
+  .text-column {
+    width: 66%;
+    float: right;
+  }
+
+  .has-thumbnail {
+    position: relative;
+  }
+  .post-thumbnail {
+    padding: 40px 0;
+  }
+
+.search{
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+}
+
+
+
+
+

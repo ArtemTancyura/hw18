@@ -1,0 +1,145 @@
+/*
+Theme Name: Simplest Site
+Author: Sam Gold
+Description: The 2014 simplest theme for WordPress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black
+Text Domain: simplest-site
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.site-footer {
+  border-top: 2px solid #999;
+  text-align: center; }
+  .site-footer .site-logo {
+    float: none;
+    padding-top: 40px;
+    padding-bottom: 10px; }
+  .site-footer .fback-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #a6a6a6;
+    font-weight: 400; }
+    .site-footer .fback-text a {
+      text-decoration: none;
+      color: #939292;
+      font-weight: 700; }
+  .site-footer nav li {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px dotted #BBB; }
+
+.site-header {
+  background-color: #292929;
+  background-size: cover; }
+  .site-header .site-logo {
+    float: left;
+    padding: 45px 0; }
+  .site-header .site-nav ul {
+    margin: 0;
+    padding: 0;
+    float: right; }
+    .site-header .site-nav ul li {
+      list-style: none;
+      float: left;
+      margin: 0; }
+      .site-header .site-nav ul li a {
+        display: block;
+        padding: 50px 18px;
+        border-bottom: 3px solid #292929;
+        border-top: none;
+        text-decoration: none;
+        color: white; }
+      .site-header .site-nav ul li a:hover {
+        color: #58c93a;
+        border-bottom: 3px solid #58c93a; }
+  .site-header .site-nav .site-nav ul:before, .site-header .site-nav .site-nav ul:after {
+    content: "";
+    display: table; }
+  .site-header .site-nav .site-nav ul:after {
+    clear: both; }
+  .site-header .site-nav .site-nav ul {
+    *zoom: 1; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+body {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  color: #333; }
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .container article {
+    padding-top: 80px; }
+    .container article .post img {
+      max-width: 100%; }
+  .container .more-link {
+    display: inline-block;
+    color: #c2c1c1;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px 25px;
+    border: 2px solid #c2c2c2;
+    border-radius: 25px;
+    margin-top: 34px;
+    text-decoration: none; }
+  .container .more-link:hover {
+    color: #58c93a;
+    border: 2px solid #58c93a; }
+
+.main-column {
+  width: 66%;
+  float: left; }
+
+.secondary-column {
+  padding-top: 70px;
+  width: 30%;
+  float: right; }
+  .secondary-column .widget-title {
+    background-color: #f8f8f8;
+    padding-left: 20px;
+    color: #6c6969;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .secondary-column .textwidget p {
+    color: #737373;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; }
+
+.title-column {
+  width: 30%;
+  float: left; }
+
+.text-column {
+  width: 66%;
+  float: right; }
+
+.has-thumbnail {
+  position: relative; }
+
+.post-thumbnail {
+  padding: 40px 0; }
+
+.search {
+  height: 50px;
+  width: 100%;
+  font-size: 15px; }

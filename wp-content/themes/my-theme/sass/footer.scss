@@ -1,0 +1,30 @@
+.site-footer{
+  border-top: 2px solid #999 ;
+  text-align: center;
+
+  .site-logo{
+    float: none;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .fback-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #a6a6a6;
+    font-weight: 400;
+
+    a{
+      text-decoration: none;
+      color: #939292;
+      font-weight: 700;
+    }
+  }
+  nav{
+    li {
+      margin-right: 10px;
+      padding-right: 10px;
+      border-right: 1px dotted #BBB ;
+    }
+  }
+}
